@@ -1,9 +1,9 @@
 name: markmandel-utils
 version: 0.0.1
 inherits: wercker/default
-type : main
-platform : ubuntu@12.04
-description : A simple box with some tools I need.
+type: main
+platform: ubuntu@12.04
+description: A simple box with some tools I need.
 keywords:
   - git
   - unzip
@@ -14,6 +14,6 @@ packages:
   - bzr
   - unzip
   - make
-script : |
+script: |
   sudo apt-get update
   sudo apt-get install git bzr mercurial unzip make
