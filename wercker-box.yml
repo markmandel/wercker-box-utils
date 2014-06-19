@@ -4,7 +4,11 @@ inherits: wercker/default
 type : main
 platform : ubuntu@12.04
 description : A simple box with some tools I need.
-packages :
+keywords:
+  - git
+  - unzip
+  - make
+packages:
   - git
   - mercurial
   - bzr
