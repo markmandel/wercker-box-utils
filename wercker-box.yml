@@ -1,4 +1,4 @@
-name: simple-box
+name: utilbox
 version: 0.0.1
 inherits: wercker/default
 type : main
