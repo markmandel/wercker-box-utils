@@ -1,0 +1,15 @@
+name: simple-box
+version: 0.0.1
+inherits: wercker/default
+type : main
+platform : ubuntu@12.04
+description : A simple box with some tools I need.
+packages :
+  - git
+  - mercurial
+  - bzr
+  - unzip
+  - make
+script : |
+  sudo apt-get update
+  sudo apt-get install git bzr mercurial unzip make
