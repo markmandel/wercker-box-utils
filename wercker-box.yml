@@ -1,4 +1,4 @@
-name: utilbox
+name: markmandel-utils
 version: 0.0.1
 inherits: wercker/default
 type : main
