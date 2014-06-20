@@ -22,4 +22,5 @@ script: |
   tar -xf godeb-amd64.tar.gz
   sudo ./godeb install 1.2.1
   rm godeb-amd64.tar.gz
+  go version
 
