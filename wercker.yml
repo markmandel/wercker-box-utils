@@ -2,6 +2,3 @@ box: wercker/default
 build:
   steps:
     - wercker/validate-wercker-box
-    - script:
-        name: Check go is installed
-        code: go version
