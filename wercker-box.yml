@@ -1,5 +1,5 @@
 name: markmandel-utils
-version: 0.0.3
+version: 0.0.4
 inherits: wercker/ubuntu12.04-webessentials@1.0.4
 type: main
 platform: ubuntu@12.04
@@ -22,7 +22,7 @@ script: |
   sudo apt-get install git bzr mercurial unzip make p7zip-full
   wget https://godeb.s3.amazonaws.com/godeb-amd64.tar.gz
   tar -xf godeb-amd64.tar.gz
-  sudo ./godeb install 1.2.1
+  sudo ./godeb install 1.4.1
   rm godeb-amd64.tar.gz
   go version
 
